@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0; font-family: sans-serif;}
+.box>.main{top:50%; left: 22%; width: 1000px; height: 600px;  position: absolute; transform: translate(-10%,-50%); border:1px solid #000;background-image: url('../images/Forest.png'); background-size: cover; background-position: center; overflow: hidden;}
+.box>.main>.right{width: 50%; background: #fff; z-index: 2;float: right;height: 100%;}
+.box>.main>.left{width: 50%; float: left;}
+.box>.main>.right>.navbar{display: flex; top: 0; left: 0; width: 100%; justify-content: space-between; text-align: center; z-index: 10000;}
+.box>.main>.right>.navbar>ul{position: relative;display: flex; justify-content: center; text-align: center;}
+.box>.main>.right>.navbar>ul>li{list-style: none; display: flex;}
+.box>.main>.right>.navbar>ul>li>a{text-decoration: none; display: inline-block; margin-left:20px;}
+.box>.main>.right>.navbar>.logo{max-width: 70px;}
